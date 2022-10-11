@@ -1,0 +1,7 @@
+﻿final : pro.o main.o
+          gcc -o final pro.o main.o
+pro.o : pro.h pro.c
+          gcc -c pro.c
+main.o : main.c
+          gcc -c main.c
+
